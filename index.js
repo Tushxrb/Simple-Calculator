@@ -18,3 +18,7 @@ function calculate(){
         display.value = "Error";
     }
 }
+
+function backSpace() {
+    display.value = display.value.slice(0, -1);
+}
